@@ -91,6 +91,7 @@ end
 #
 #############################################################################
 
+desc "Update gemspec, build gem, commit with 'Release x.x.x', create tag, push to origin"
 task :release => :build do
   unless `git branch` =~ /^\* master$/
     puts "You must be on the master branch to release!"
@@ -103,12 +104,14 @@ task :release => :build do
   sh "gem push pkg/#{name}-#{version}.gem"
 end
 
+desc "Update gemspec and build gem"
 task :build => :gemspec do
   sh "mkdir -p pkg"
   sh "gem build #{gemspec_file}"
   sh "mv #{gem_file} pkg"
 end
 
+desc "Update gemspec with the latest version and file list"
 task :gemspec => :validate do
   # read spec file and split out manifest section
   spec = File.read(gemspec_file)
