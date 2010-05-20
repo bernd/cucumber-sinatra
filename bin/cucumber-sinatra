@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'cucumber/sinatra'
+require 'cucumber/sinatra/generators'
+
+Cucumber::Sinatra::Generators.run_cli Dir.pwd, File.basename(__FILE__), Cucumber::Sinatra::VERSION, ARGV
