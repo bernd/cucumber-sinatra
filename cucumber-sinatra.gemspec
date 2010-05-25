@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'cucumber-sinatra'
-  s.version           = '0.1.0'
-  s.date              = '2010-05-20'
+  s.version           = '0.2.0'
+  s.date              = '2010-05-26'
   s.rubyforge_project = 'cucumber-sinatra'
 
   s.summary     = "Initialize a cucumber environment for sinatra"
@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
 
   # = MANIFEST =
   s.files = %w[
+    CHANGES.md
     LICENSE
     README.md
     Rakefile
@@ -41,7 +42,9 @@ Gem::Specification.new do |s|
     lib/cucumber/sinatra/generators.rb
     lib/cucumber/sinatra/templates/app.rbt
     lib/cucumber/sinatra/templates/config.ru
+    lib/cucumber/sinatra/templates/features/step_definitions/web_steps.rbt
     lib/cucumber/sinatra/templates/features/support/env.rbt
+    lib/cucumber/sinatra/templates/features/support/paths.rbt
   ]
   # = MANIFEST =
 
