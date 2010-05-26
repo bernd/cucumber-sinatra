@@ -41,4 +41,13 @@ and a working `config.ru`.
 
 # Copyright
 
-Copyright (c) 2010 Bernd Ahlers. See LICENSE for details.
+The content of the following files has been taken from the
+[cucumber-rails](http://github.com/aslakhellesoy/cucumber-rails) project which is licensed
+under the MIT license.
+
+* `lib/cucumber/sinatra/templates/features/step_definitions/web_steps.rbt`
+* `lib/cucumber/sinatra/templates/features/support/paths.rbt`
+
+The rest is licensed under a BSD license.
+
+See the LICENSE file for a copy of both licenses.
