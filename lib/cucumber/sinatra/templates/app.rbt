@@ -2,6 +2,6 @@ require 'sinatra/base'
 
 class <%= app_class -%> < Sinatra::Base
   get '/' do
-       'Hello <%= app_class -%>!'
+    'Hello <%= app_class -%>!'
   end
 end
