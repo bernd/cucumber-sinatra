@@ -1,6 +1,10 @@
 ChangeLog
 =========
 
+# 0.2.2
+* Set sinatra environment to :test in the env.rb template.
+* Fix indentation in the app.rb template.
+
 # 0.2.1
 * Clarify licenses.
 
