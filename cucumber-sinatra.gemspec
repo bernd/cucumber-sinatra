@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'cucumber-sinatra'
-  s.version           = '0.2.2'
-  s.date              = '2010-06-08'
+  s.version           = '0.2.3'
+  s.date              = '2010-07-21'
   s.rubyforge_project = 'cucumber-sinatra'
 
   s.summary     = "Initialize a cucumber environment for sinatra"
