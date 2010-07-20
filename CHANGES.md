@@ -1,6 +1,10 @@
 ChangeLog
 =========
 
+# 0.2.3
+* Create a custom world class to avoid SystemStackError
+  exceptions with capybara.
+
 # 0.2.2
 * Set sinatra environment to :test in the env.rb template.
 * Fix indentation in the app.rb template.
