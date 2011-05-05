@@ -1,6 +1,9 @@
 ChangeLog
 =========
 
+# 0.3.1
+* Remove `default_executable=` from gemspec to please rubygems >=1.8.
+
 # 0.3.0
 * Switch templates to rspec2. (akeem)
 
