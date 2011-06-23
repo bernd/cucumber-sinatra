@@ -15,6 +15,9 @@ It's available as a gem that can be installed with the following command.
 
         gem install cucumber-sinatra
 
+To use the generated templates without any modification, you'll have to install
+the rspec (v2) and capybara (at least v1.0.0) gems as well.
+
 # Usage
 
 To initialize the cucumber environment, just execute `cucumber-sinatra` like this:
