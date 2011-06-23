@@ -6,7 +6,7 @@ cucumber-sinatra
 This little gem will help you to initialize a cucumber environment for a sinatra
 application. It will generate the required files from templates.
 
-For now it's generating an `env.rb` that is using [rspec](http://github.com/dchelimsky/rspec)
+For now it's generating an `env.rb` that is using [rspec](http://github.com/rspec/rspec)
 and [capybara](http://github.com/jnicklas/capybara). More options might be added later.
 
 # Installation
