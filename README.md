@@ -42,7 +42,7 @@ and a working `config.ru`.
 # Copyright
 
 The content of the following files has been taken from the
-[cucumber-rails](http://github.com/aslakhellesoy/cucumber-rails) project which is licensed
+[cucumber-rails](http://github.com/cucumber/cucumber-rails) project which is licensed
 under the MIT license.
 
 * `lib/cucumber/sinatra/templates/features/step_definitions/web_steps.rbt`
