@@ -1,6 +1,9 @@
 ChangeLog
 =========
 
+# 0.4.0
+* Silence a deprecation warning with capybara 1.0.0. (HeroicEric)
+
 # 0.3.1
 * Remove `default_executable=` from gemspec to please rubygems >=1.8.
 
