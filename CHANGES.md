@@ -1,6 +1,9 @@
 ChangeLog
 =========
 
+# 0.5.0
+* Run the application if $0 is the app file. (strand)
+
 # 0.4.0
 * Silence a deprecation warning with capybara 1.0.0. (HeroicEric)
 
