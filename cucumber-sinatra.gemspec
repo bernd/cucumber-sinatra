@@ -41,9 +41,7 @@ Gem::Specification.new do |s|
     lib/cucumber/sinatra/generators.rb
     lib/cucumber/sinatra/templates/app.rbt
     lib/cucumber/sinatra/templates/config.ru
-    lib/cucumber/sinatra/templates/features/step_definitions/web_steps.rbt
     lib/cucumber/sinatra/templates/features/support/env.rbt
-    lib/cucumber/sinatra/templates/features/support/paths.rbt
   ]
   # = MANIFEST =
 
