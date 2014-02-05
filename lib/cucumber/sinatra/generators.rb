@@ -21,8 +21,8 @@ module Cucumber
         option :app, :as => :boolean, :default => false, :desc => 'Create the application files as well.'
 
         template :env, 'features/support/env.rb'
-        template :paths, 'features/support/paths.rb'
-        template :steps, 'features/step_definitions/web_steps.rb'
+
+        empty_directory :step_definitions, File.join("features", "step_definitions")
         template :app_file, 'app.rbt', '%app_file_path%', :app => true
         template :rackup_file, 'config.ru', 'config.ru', :app => true
 

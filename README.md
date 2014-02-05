@@ -24,8 +24,7 @@ To initialize the cucumber environment, just execute `cucumber-sinatra` like thi
 
         # cucumber-sinatra init MyApp lib/my_app.rb
              [ADDED]  features/support/env.rb
-             [ADDED]  features/support/paths.rb
-             [ADDED]  features/step_definitions/web_steps.rb
+             [ADDED]  features/step_definitions/
         #
 
 * The first argument is the class name of your application.
@@ -36,8 +35,7 @@ and a working `config.ru`.
 
         # cucumber-sinatra init --app MyApp lib/my_app.rb
              [ADDED]  features/support/env.rb
-             [ADDED]  features/support/paths.rb
-             [ADDED]  features/step_definitions/web_steps.rb
+             [ADDED]  features/step_definitions/
              [ADDED]  lib/my_app.rb
              [ADDED]  config.ru
         #
